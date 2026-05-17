@@ -248,9 +248,9 @@ h3 .num .lucide { width: 18px; height: 18px; }
 p { margin: 0 0 16px; text-align: justify; hyphens: auto; }
 p:last-child { margin-bottom: 0; }
 
-ul { margin: 0 0 16px; padding-left: 22px; }
-ul li { margin: 6px 0; }
-ul li::marker { color: var(--muted); }
+ul, ol { margin: 0 0 16px; padding-left: 22px; }
+ul li, ol li { margin: 6px 0; }
+ul li::marker, ol li::marker { color: var(--muted); }
 
 /* Buttons / inline actions */
 .actions {
@@ -329,6 +329,11 @@ ul li::marker { color: var(--muted); }
   color: var(--muted);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.rm-term {
+  font-style: italic;
+  color: var(--accent);
 }
 
 /* Dates */
