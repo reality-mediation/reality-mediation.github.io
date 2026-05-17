@@ -1,8 +1,250 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>International Workshop on Reality Mediation</title>
+<link rel="apple-touch-icon" sizes="180x180" href="2026/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="2026/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="2026/favicon/favicon-16x16.png">
+<link rel="manifest" href="2026/favicon/site.webmanifest">
+<style>
+  @font-face {
+    font-family: "Inter";
+    src: url("2026/fonts/InterVariable.ttf") format("truetype-variations");
+    font-weight: 100 900;
+    font-display: swap;
+  }
 
+  :root {
+    --bg: #ffffff;
+    --section-alt: #f5f6f9;
+    --brand: #2d3e6e;
+    --accent: #a8442a;
+    --accent-soft: #f5e4dc;
+    --fg: #15171c;
+    --muted: #5b6470;
+    --rule: #15171c14;
+    --radius: 20px;
+    --max: 750px;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+
+  a { color: inherit; }
+  a:hover { opacity: .65; }
+
+  /* Nav */
+  .nav {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 1px 1px 3px #707070;
+  }
+  .nav .wrap {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .brand {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.25;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 96px 0 64px;
+    background-image: linear-gradient(to bottom, rgba(20,28,55,0.55) 0%, rgba(20,28,55,0.88) 30%, #141c37 100%);
+  }
+  .hero h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    margin: 0 0 20px;
+    background: linear-gradient(120deg, #ffffff 0%, #dbe3f5 55%, #d3d7e1 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
+  .hero .subtitle {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.82);
+    max-width: 60ch;
+    margin: 0;
+    line-height: 1.55;
+  }
+
+  /* Sections */
+  .section { padding: 64px 0; }
+  .section:nth-of-type(odd) { background: var(--section-alt); }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 24px;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    color: var(--accent);
+  }
+  .num {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+
+  p { margin: 0 0 16px; }
+  p:last-child { margin-bottom: 0; }
+
+  /* Editions list (same visual rhythm as the 2026 "dates" component) */
+  .editions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 0;
+    border-top: 1px solid var(--rule);
+    list-style: none;
+    padding: 0;
+  }
+  .editions li {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: baseline;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .editions .year {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--fg);
+    min-width: 3em;
+  }
+  .editions .where {
+    color: var(--muted);
+    font-size: 16px;
+  }
+  .editions .link-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 16px;
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent);
+    background: transparent;
+    white-space: nowrap;
+    transition: background .15s ease, color .15s ease;
+  }
+  .editions .link-btn:hover { opacity: 1; background: var(--accent); color: var(--bg); }
+  .editions .upcoming-pill {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .04em;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 10px;
+    border-radius: var(--radius);
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--rule);
+    padding: 32px 0 48px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  footer .wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16px; }
+    .hero { padding: 56px 0 40px; }
+    .hero h1 { font-size: 2em; }
+    .section { padding: 44px 0; }
+    h2 { font-size: 26px; }
+    .editions li {
+      grid-template-columns: auto 1fr;
+      grid-template-areas:
+        "year link"
+        "where where";
+      gap: 6px 16px;
+    }
+    .editions .year { grid-area: year; }
+    .editions .link-btn { grid-area: link; justify-self: end; }
+    .editions .where { grid-area: where; }
+  }
+</style>
+</head>
 <body>
-Hello IWRM2026
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">International Workshop on<br>Reality Mediation</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>International Workshop on Reality Mediation</h1>
+      <p class="subtitle">A workshop series on personalized, shared, and connected realities — exploring how ubiquitous systems sense, model, transform, and share people's experiences of the world.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <!-- <h2><span class="num">01</span> Editions</h2> -->
+      <ul class="editions">
+        <li>
+          <span class="year">2026</span>
+          <span class="where">Co-located with UbiComp/ISWC 2026 · Shanghai, China · October 2026 (TBA)</span>
+          <a class="link-btn" href="2026/index.html">Visit →</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>International Workshop on Reality Mediation</span>
+    <span>© 2026 | Code: <a href="https://github.com/reality-mediation/reality-mediation.github.io" target="_blank">/reality-mediation/reality-mediation.github.io</a> </span>
+  </div>
+</footer>
 
 </body>
-
 </html>
