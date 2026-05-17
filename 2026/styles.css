@@ -336,6 +336,26 @@ ul li::marker, ol li::marker { color: var(--muted); }
   color: var(--accent);
 }
 
+.contact-block {
+  margin: 32px 0 0;
+  text-align: left;
+  hyphens: none;
+  color: var(--muted);
+}
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: -3px;
+  margin-right: 8px;
+  color: var(--accent);
+}
+.contact-link {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.contact-link:hover { color: var(--accent); opacity: 1; }
+
 /* Dates */
 .dates {
   display: grid;
