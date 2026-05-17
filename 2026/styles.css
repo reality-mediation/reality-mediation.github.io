@@ -233,12 +233,17 @@ h2 {
 }
 
 h3 {
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: -0.005em;
-  color: var(--fg);
-  margin: 32px 0 10px;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--brand);
+  margin: 40px 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+h3 .num { display: inline-flex; align-items: center; color: var(--accent); }
+h3 .num .lucide { width: 18px; height: 18px; }
 
 p { margin: 0 0 16px; text-align: justify; hyphens: auto; }
 p:last-child { margin-bottom: 0; }
@@ -348,6 +353,26 @@ ul li::marker { color: var(--muted); }
   font-size: 16px;
   color: var(--muted);
 }
+
+/* Roles (chairs) — aligned two-column list */
+.roles {
+  margin: 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 24px;
+  row-gap: 6px;
+  font-size: 17px;
+  line-height: 1.65;
+}
+.roles > div { display: contents; }
+.roles dt { font-weight: 500; color: var(--fg); margin: 0; }
+.roles dt::after { content: ":"; }
+.roles dd { margin: 0; color: var(--muted); }
+
+/* PC list */
+.pc { margin: 0; padding-left: 22px; }
+.pc li { margin: 4px 0; font-size: 17px; color: var(--muted); }
+.pc li::marker { color: var(--muted); }
 
 /* Schedule */
 .schedule {
