@@ -1,0 +1,117 @@
+Call for Papers
+=======================================================================
+International Workshop on Reality Mediation: Personalized, Shared, and Connected Realities
+https://reality-mediation.github.io/2026/
+Co-located with UbiComp/ISWC 2026, Shanghai, China · October 11 or 12, 2026
+=======================================================================
+
++++++++ Goals of the Workshop +++++++
+Ubiquitous computing is no longer only about sensing context and adapting services. As AI, XR, multimodal sensing, wearable and ambient interfaces, and cyber-physical infrastructures become embedded in everyday environments, computational systems increasingly influence what people notice, how situations are interpreted, and how places, services, information, and other people are encountered.
+A navigation system may foreground some routes, risks, or opportunities over others; an XR interface may reveal invisible layers of a place; a wearable system may infer bodily or emotional states; and an AI-enabled public-space service may personalize which information, communities, or actions become visible to each person.
+These developments create major opportunities for accessibility, learning, mobility, collaboration, health, public-space interaction, and civic participation. At the same time, they raise a deeper question for the UbiComp community: When systems personalize and transform everyday experience, how can these experiences remain understandable, shareable, accountable, and trustworthy across different people, devices, places, and intelligent agents?
+This workshop introduces reality mediation as a unifying lens for this emerging design space. By reality mediation, we refer to the ways ubiquitous systems sense, model, transform, personalize, share, connect, and govern people's experiences of the world. The workshop aims to move beyond isolated examples of personalization or adaptation and toward a broader discussion of how mediated realities can be designed responsibly: not only to support individuals, but also to preserve common ground, enable negotiation across perspectives, and sustain trustworthy social interaction.
+We invite researchers and practitioners from UbiComp, ISWC, HCI, XR, AI, IoT, cyber-physical systems, urban computing, mobility, accessibility, privacy, security, fairness, and trustworthy computing to join this conversation. We welcome technical, conceptual, empirical, critical, and design-oriented contributions, including early-stage work that can stimulate discussion and help shape a shared research agenda.
+
+The workshop aims to establish reality mediation as a concrete research agenda for UbiComp/ISWC. In particular, we seek to:
+- develop a shared vocabulary for discussing how ubiquitous systems mediate people's lived experiences;
+- connect research on sensing, modeling, mediation, personalization, sharing, negotiation, trust, and governance;
+- identify design principles for intelligible, transparent, controllable, privacy-preserving, fair, safe, and accountable mediation;
+- discuss methods for evaluating mediated experiences, including common ground, asymmetry, trust, and long-term social impact;
+- bridge communities that often study related problems separately, including HCI, XR, AI, urban computing, mobility, cyber-physical systems, and trustworthy computing; and
+- build a forward-looking agenda for ubiquitous systems that are adaptive and intelligent while remaining socially grounded.
+
++++++ Topics of Interest +++++++
+
+Topics include, but are not limited to:
+- theories, concepts, and design frameworks for reality mediation;
+- personalized, shared, connected, collaborative, or negotiated realities;
+- multimodal sensing and modeling of people, places, activities, bodies, situations, and social contexts;
+- XR, wearable, mobile, robotic, and ambient interfaces that mediate everyday perception and action;
+- AI agents and foundation-model-based systems that shape interpretation, recommendation, coordination, or decision-making in everyday environments;
+- systems that connect individualized perspectives across people, groups, communities, or stakeholders;
+- public-space, urban-scale, mobility, transportation, and community systems under personalized mediation;
+- digital social prescribing and community referral systems that mediate access to health, well-being, and local support resources;
+- accessibility, inclusion, learning, health, well-being, collaboration, and civic participation enabled by mediated experiences;
+- explainability, intelligibility, transparency, provenance, and user control in mediated ubiquitous systems;
+- privacy-preserving, secure, safe, and accountable architectures for mediation across edge, cloud, federated, and cyber-physical infrastructures;
+- fairness, plural values, bystander concerns, governance, policy, and responsible innovation in personalized or mediated realities;
+- empirical, in-the-wild, longitudinal, and participatory methods for evaluating mediated experience and social impact;
+- critical reflections on perceptual fragmentation, asymmetric access, manipulation, over-personalization, filter bubbles, or loss of common ground; and
+- position papers that identify open challenges, research opportunities, or future directions for reality mediation.
+
++++++++ Important Dates ++++++++
+- Submission Deadline: July 3, 2026
+- Notification of Acceptance: July 20, 2026
+- Camera-Ready Deadline: July 27, 2026
+
++++++++ Submission Details +++++++
+We invite both long papers (6 pages) and short papers (4 pages), excluding references, in the double-column ACM format. Submissions should use the ACM SIGCHI Master Article template, following the official UbiComp/ISWC 2026 formatting guidelines:
+https://www.ubicomp.org/ubicomp-iswc-2026/authors/formatting/
+
+Submissions may include, but are not limited to:
+- original research papers presenting systems, methods, studies, or deployments;
+- position papers proposing concepts, arguments, design principles, or research agendas;
+- early work, prototypes, or work-in-progress papers that can benefit from workshop discussion;
+- empirical or methodological papers on how to study and evaluate mediated experience;
+- critical, reflective, or speculative papers on risks, governance, ethics, and societal implications; and
+- interdisciplinary papers that connect technical mechanisms with human, social, urban, legal, or policy perspectives.
+
+Submissions do not need to use the term "reality mediation" explicitly. We welcome papers from adjacent areas when they address how ubiquitous, wearable, AI-enabled, XR, or cyber-physical systems shape what people perceive, understand, decide, or share in everyday environments.
+
+Please submit your papers through the PCS submission system:
+https://new.precisionconference.com/submissions
+Make a new submission as follows:
+- Society: SIGCHI
+- Conference/Journal: UbiComp/ISWC 2026
+- Track: Ubicomp/ISWC Workshop 2026 Reality Mediation
+Then click the "Go" button to proceed with the submission.
+
++++++++ Review and Selection +++++++
+Each submission will be reviewed by at least two workshop technical committee members or organizers. Papers will be selected based on relevance to the workshop theme, clarity of contribution, originality or insight, and potential to stimulate discussion across communities.
+Because the workshop is intended as an agenda-building venue rather than a mini-conference, we especially welcome papers that open important questions, connect previously separate research areas, or articulate design tensions and evaluation challenges.
+After acceptance, papers will be grouped into thematic clusters. These clusters will be used to organize short presentations, moderated discussions, and collaborative agenda-building activities during the workshop.
+
+++++++++ Workshop Format ++++++++++
+
+The workshop will be a half-day or one-day open workshop. Attendance will not be limited to authors of accepted papers.
+The program will combine:
+- an opening session that frames reality mediation as an emerging UbiComp/ISWC research agenda;
+- short presentations of accepted papers, grouped by theme;
+- moderated discussions on topics such as common ground, asymmetry, intelligibility, control, accountability, and trust;
+- breakout or plenary agenda-building activities to identify open technical, methodological, and socio-technical challenges; and
+- a closing synthesis to identify possible follow-up activities, such as a public workshop report, future editions, special issues, panels, or collaborations.
+Our goal is to create an interactive venue where participants can connect concepts, methods, and communities. Presentations will therefore be concise, with substantial time reserved for discussion and synthesis.
+
++++++++ Intended Outcomes +++++++
+
+The workshop aims to produce a shared vocabulary and research agenda for reality mediation.
+
+Expected outcomes include:
+1. a set of recurring concepts and design tensions;
+2. methodological questions for evaluating mediated and personalized experience;
+3. connections among researchers working on related topics under different terminology; and
+4. follow-up opportunities for community reports, future workshops, panels, special issues, or collaborative research.
+Ultimately, the workshop asks how future ubiquitous systems can personalize experience without isolating perception, support individuals without undermining shared understanding, and mediate reality in ways that are beneficial, accountable, and trustworthy for both users and society.
+
++++++++ Organizers +++++++
+
+- Takuro Yonezawa, Nagoya University, Japan
+- Simon Mayer, University of St. Gallen, Switzerland
+- Shunichi Kasahara, Sony Computer Science Laboratories, Japan
+- Jannis Strecker-Bischoff, University of St. Gallen, Switzerland
+- Christopher Katins, Humboldt University of Berlin, Germany
+- Md Atiqur Rahman Ahad, University of East London, United Kingdom
+- Anthony Rowe, Carnegie Mellon University, USA
+- Flora Salim, University of New South Wales, Australia
+
+
++++++++ Chairs +++++++++++++
+
+- Publication Chair: Tahera Hossain, Nagoya University, Japan
+- Web Chair: Jannis Strecker-Bischoff, University of St.Gallen, Switzerland
+- Publicity Chair: Yuuki Nishiyama, The University of Tokyo, Japan
+
+
+++++++++ Contact ++++++++++
+Website: https://reality-mediation.github.io/2026/
+E-mail: iwrm2026@googlegroups.com
