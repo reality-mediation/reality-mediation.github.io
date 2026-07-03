@@ -40,9 +40,9 @@ Topics include, but are not limited to:
 - position papers that identify open challenges, research opportunities, or future directions for reality mediation.
 
 +++++++ Important Dates ++++++++
-- Submission Deadline: July 3, 2026
-- Notification of Acceptance: July 20, 2026
-- Camera-Ready Deadline: July 27, 2026
+- Submission Deadline: ~~July 3, 2026~~ July 10, 2026 (AoE)
+- Notification of Acceptance: ~~July 20, 2026~~ July 23, 2026 (AoE)
+- Camera-Ready Deadline: ~~July 27, 2026~~ July 30, 2026 (AoE)
 
 +++++++ Submission Details +++++++
 We invite both long papers (6 pages) and short papers (4 pages), excluding references, in the double-column ACM format. Submissions should use the ACM SIGCHI Master Article template, following the official UbiComp/ISWC 2026 formatting guidelines:
