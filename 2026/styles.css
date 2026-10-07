@@ -441,6 +441,20 @@ ul li::marker, ol li::marker { color: var(--muted); }
   padding-right: 24px;
 }
 
+.schedule .paper + .paper { margin-top: 18px; }
+.paper-authors {
+  margin-top: 4px;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+.paper-affiliations {
+  margin-top: 3px;
+  font-size: 0.8em;
+  line-height: 1.6;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
 /* Organizers */
 .people {
   display: flex;
